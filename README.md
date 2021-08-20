@@ -1,5 +1,5 @@
 # 100DaysOfCode
-Becase... why not?
+Because... why not?
 
 ## Why Python?
 I love IT. I've been in the IT industry since 2011 but never in something as huge as cloud computing. Python is well welcomed in this domain. I hope, by the end of this 100 days of code challenge, this career path can jump start a positve change in my life.
