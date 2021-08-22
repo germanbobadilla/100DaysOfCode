@@ -49,3 +49,16 @@ elif total >= 18.5:
 else:
     print("You are underweight.")
     
+# Exercise 5 - Leap year
+year = int(input("Enter year. "))
+int_year = int(year)
+if int_year % 4 == 0:    
+    if int_year % 100 == 0:        
+        if int_year % 400 == 0:
+            print(f"{int_year} is a leap year.")
+        else:
+            print(f"{int_year} is not a leap year.")
+    else:
+        print(f"{int_year} is a leap year.")
+else:
+    print(f"{int_year} is not a leap year.")
