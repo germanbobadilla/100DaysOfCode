@@ -8,7 +8,6 @@ e = float(input("Remove what your friend gave you.  "))
 thinking = lambda a, b, c, e: (a + b + c) / 2 - e
 print((a + b + c) / 2 - e)
 
-
 # Exercise 2 - Find the modulo
 
 number = int(input("Type the number here. "))
