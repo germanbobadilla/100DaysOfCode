@@ -1,44 +1,44 @@
-# # Exercise 1 - Pizza order
+# Exercise 1 - Pizza order
 
-# print("Welcome to Pizza German")
-# sp = 15
-# mp = 20
-# lp = 25
-# ppsp = 2
-# ppmp_and_lp = 3
-# ec = 1
-# bill = 0
+print("Welcome to Pizza German")
+sp = 15
+mp = 20
+lp = 25
+ppsp = 2
+ppmp_and_lp = 3
+ec = 1
+bill = 0
 
-# size = input("What size pizza do you want? S, M, or L  ")
-# if size == "s":
-#     bill += sp
-#     add_pepperoni = input("Do you want pepperoni? Y or N  ")
-#     if add_pepperoni == "y":
-#         bill += ppsp
-#     extra_cheese = input("Do you want extra cheese? Y or N  ")
-#     if extra_cheese == "y":
-#        bill += ec
-#        print(f"Your total bill is {bill}.")
-# elif size == "m":
-#     bill += mp
-#     add_pepperoni = input("Do you want pepperoni? Y or N  ")
-#     if add_pepperoni == "y":
-#         bill += ppmp_and_lp
-#     extra_cheese = input("Do you want extra cheese? Y or N  ")
-#     if extra_cheese == "y":
-#        bill += ec
-#        print(f"Your total bill is {bill}.")
-# elif size == "l":
-#     bill += lp
-#     add_pepperoni = input("Do you want pepperoni? Y or N  ")
-#     if add_pepperoni == "y":
-#         bill += ppmp_and_lp
-#     extra_cheese = input("Do you want extra cheese? Y or N  ")
-#     if extra_cheese == "y":
-#        bill += ec
-#        print(f"Your total bill is {bill}.")
-# else:
-#     print(f"Your total bill is {bill}.")
+size = input("What size pizza do you want? S, M, or L  ")
+if size == "s":
+    bill += sp
+    add_pepperoni = input("Do you want pepperoni? Y or N  ")
+    if add_pepperoni == "y":
+        bill += ppsp
+    extra_cheese = input("Do you want extra cheese? Y or N  ")
+    if extra_cheese == "y":
+       bill += ec
+       print(f"Your total bill is {bill}.")
+elif size == "m":
+    bill += mp
+    add_pepperoni = input("Do you want pepperoni? Y or N  ")
+    if add_pepperoni == "y":
+        bill += ppmp_and_lp
+    extra_cheese = input("Do you want extra cheese? Y or N  ")
+    if extra_cheese == "y":
+       bill += ec
+       print(f"Your total bill is {bill}.")
+elif size == "l":
+    bill += lp
+    add_pepperoni = input("Do you want pepperoni? Y or N  ")
+    if add_pepperoni == "y":
+        bill += ppmp_and_lp
+    extra_cheese = input("Do you want extra cheese? Y or N  ")
+    if extra_cheese == "y":
+       bill += ec
+       print(f"Your total bill is {bill}.")
+else:
+    print(f"Your total bill is {bill}.")
     
 # Exercise 2 - Rock paper scissors
 
