@@ -19,7 +19,6 @@ user_input.append(undergraduate)
 
 print("Updated List : ", user_input)
 
-
 # Exercise 3 - Who's paying for the bill.
 import random
 people = ["German", "El Latin", "Basilio"]
