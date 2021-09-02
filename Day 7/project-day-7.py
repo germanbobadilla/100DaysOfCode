@@ -16,3 +16,9 @@ for i in range(1):
 
 password = ''.join([str(item) for item in password_list])
 print(f"This is your new password: {password}")
+
+# Method 2
+
+import exrex
+password = exrex.getone('^[A-Za-z0-9_-]{8,15}$', limit=20)
+print(password)
