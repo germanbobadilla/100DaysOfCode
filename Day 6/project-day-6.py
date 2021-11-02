@@ -47,4 +47,3 @@ else:
     elif computer_choice == user_choice:
         print("It's a draw.")
 
-    
